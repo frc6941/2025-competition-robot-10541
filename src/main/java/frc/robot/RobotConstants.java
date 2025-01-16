@@ -211,7 +211,7 @@ public final class RobotConstants {
         private static final int BACK_RIGHT_DRIVE_MOTOR_ID = 4;
         private static final int BACK_RIGHT_STEER_MOTOR_ID = 3;
         private static final int BACK_RIGHT_ENCODER_ID = 10;
-        private static final double BACK_RIGHT_ENCODER_OFFSET = -0.458007//-0.151611;// 0.422119;//-0.5684550781//-0.064453//0.432279296875
+        private static final double BACK_RIGHT_ENCODER_OFFSET = -0.458007;//-0.151611;// 0.422119;//-0.5684550781//-0.064453//0.432279296875
         private static final Measure<DistanceUnit> backRightXPos = Meters.of(-0.180);
         private static final Measure<DistanceUnit> backRightYPos = Meters.of(-0.247);
         public static final LegacySwerveModuleConstants BackRight = ConstantCreator.createModuleConstants(
